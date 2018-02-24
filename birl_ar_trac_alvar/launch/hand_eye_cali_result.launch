@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+<!-- relation bettwen camera_link and base -->
+<node pkg="tf" type="static_transform_publisher" name="pub_tf_baxterBase2cameraLink" args=" 0.16000 0.055 0.275439  0.026372 0.029066 0.013821 0.999134 /base /camera_link 100 " />
+
+</launch>
+
